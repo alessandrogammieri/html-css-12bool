@@ -1,0 +1,14 @@
+/* Regole specifiche del Container */
+.row {
+  width: 80%;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+/* Regole specifiche delle Colonne */
+[class*="col-"] {
+  height: 300px;
+  border: solid 1px #000;
+  text-align: center;
+  padding-top: 140px;
+}
