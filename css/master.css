@@ -1,14 +1,29 @@
-/* Regole specifiche del Container */
-.row {
+/* Regole specifiche delle righe */
+.container {
   width: 80%;
   margin: 0 auto;
   background-color: pink;
 }
 
+.box {
+  width: 98%;
+  margin: 1% auto;
+}
+
 /* Regole specifiche delle Colonne */
 [class*="col-"] {
-  height: 300px;
   border: solid 1px #000;
   text-align: center;
+  height: 300px;
+}
+
+.box>[class*="col-"] {
+  border: solid 2px #fff;
+  text-align: center;
+  height: 280px;
+  background-color: orange;
+}
+
+p {
   padding-top: 140px;
 }
